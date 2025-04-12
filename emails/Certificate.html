@@ -1,0 +1,80 @@
+---
+bodyClass: bg-slate-50
+preheader: Transactional email template
+---
+
+<x-main>
+  <div class="bg-slate-50 sm:px-4 font-inter">
+    <table align="center" class="m-0 mx-auto">
+      <tr>
+        <td class="w-[552px] max-w-full">
+          <x-spacer height="24px" />
+
+          <table class="w-full">
+            <tr>
+              <td class="py-6 px-9 sm:p-6 bg-white [border:1px_solid_theme(colors.slate.200)] rounded-lg">
+                <table class="text-center">
+                    <tr>
+                        <td class="flex">
+                            <a href="https://maizzle.com" style="display: inline-block; vertical-align: middle; line-height: 70px;">
+                                <img src="NCCRVS.webp" src-production="images/NCCRVS.webp" width="100" alt="NCCRVS" style="vertical-align: middle;">
+                              </a>
+                              <p class="text-xl text-start mx-4 text-slate-900  font-league-spartan font-bold">4th National Convention on Civil Registration and Vital Statistics</p>
+                        </td>
+                    </tr>
+            </table>
+
+            <!-- <x-divider /> -->
+
+                <x-spacer height="24px" />
+
+                <h1 class="m-0 mb-6 text-3xl/8 text-emerald-500 font-semibold text-center font-Rubik">
+                  EMAIL FOR CERTIFICATE OF PARTICIPATION
+                </h1>
+
+                <x-spacer height="24px" />
+
+                <p class="m-0 mb-6 text-base/6 text-slate-600">
+                    Dear <span class="font-bold text-slate-800"><i>[Participant]</i></span>:
+                </p>
+
+                <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
+                  Thank you for participating in the 4th National Convention on Civil Registration and Vital Statistics and we are excited to share your <span class="font-bold text-slate-900">Certificate of [Participation/Completion]</span>.
+                </p>
+
+                <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
+                  Please find your certificate attached to this email. We appreciate your active involvement and hope that the event was both enjoyable and informative.
+                </p>
+
+                <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
+                  Should you have any questions or require further assistance, feel free to contact us at <span class="font-bold text-slate-900">[Contact Email/Phone Number]</span>.
+                </p>
+
+                <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
+                  Once again, thank you for your participation. We look forward to welcoming you to our future events!
+                </p>
+
+                <x-spacer/>
+
+                <p class="m-0 mb-6 text-base/6 text-slate-600">
+                    <i>4NCCRRVS TECHNICAL TEAM</i>
+                </p>
+
+              </td>
+            </tr>
+          </table>
+
+          <table class="w-full">
+            <tr>
+              <td class="py-6 px-9 sm:px-6">
+                <p class="m-0 text-xs text-slate-500">
+                  &copy; {{ new Date().getFullYear() }} 4NCCRVS
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+</x-main>

@@ -1,0 +1,84 @@
+---
+bodyClass: bg-slate-50
+preheader: Transactional email template
+---
+
+<x-main>
+  <div class="bg-slate-50 sm:px-4 font-inter">
+    <table align="center" class="m-0 mx-auto">
+      <tr>
+        <td class="w-[552px] max-w-full">
+          <x-spacer height="24px" />
+
+          <table class="w-full">
+            <tr>
+              <td class="py-6 px-9 sm:p-6 bg-white [border:1px_solid_theme(colors.slate.200)] rounded-lg">
+                <table class="text-center">
+                    <tr>
+                        <td class="flex">
+                            <a href="https://maizzle.com" style="display: inline-block; vertical-align: middle; line-height: 70px;">
+                                <img src="NCCRVS.webp" src-production="images/NCCRVS.webp" width="100" alt="NCCRVS" style="vertical-align: middle;">
+                              </a>
+                              <p class="text-xl text-start mx-4 text-slate-900  font-league-spartan font-bold">4th National Convention on Civil Registration and Vital Statistics</p>
+                        </td>
+                    </tr>
+            </table>
+
+            <!-- <x-divider /> -->
+
+                <x-spacer height="24px" />
+
+                <h1 class="m-0 mb-6 text-3xl/8 text-red-600 font-semibold text-center font-Rubik">
+                  RESERVATION DENIED
+                </h1>
+
+                <x-spacer height="24px" />
+
+                <p class="m-0 mb-6 text-base/6 text-slate-600">
+                    Dear <span class="font-bold text-slate-800"><i>[Participant]</i></span>:
+                </p>
+
+                <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
+                  We extend our heartfelt appreciation for your interest in joining the 4th National Convention on Civil Registration and Vital Statistics on <span class="font-bold text-slate-900">28 to 30 July 2025</span> at the <span class="font-bold text-slate-900">SMX Convention Center Clark, SM City Clark Complex M.A. Roxas Highway, Clark, Bgry. Dau, Mabalacat City, Pampanga.</span>
+                </p>
+
+                <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
+                  It is with regret that we inform you that due to the limited number of slots allocated per region, we are unable to accommodate your participation request for this event.
+                </p>
+
+                <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
+                  We sincerely hope that this does not discourage your enthusiasm to participate in future conventions and events that we will be organizing. Your unwavering support is of great value to us.
+                </p>
+
+                <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
+                  If you have any questions or require further assistance, please do not hesitate to reach out to our dedicated support team at <span class="font-bold text-slate-900">acctgnccrvs@gmail.com / (8)374-8264 / (8)374-8265</span>.
+                </p>
+
+                <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
+                  Thank you for being an integral part of our mission, and we look forward to the possibility of welcoming you to our future events.
+                </p>
+
+                <x-spacer/>
+
+                <p class="m-0 mb-6 text-base/6 text-slate-600">
+                    <i>4NCCRRVS TECHNICAL TEAM</i>
+                </p>
+
+              </td>
+            </tr>
+          </table>
+
+          <table class="w-full">
+            <tr>
+              <td class="py-6 px-9 sm:px-6">
+                <p class="m-0 text-xs text-slate-500">
+                  &copy; {{ new Date().getFullYear() }} 4NCCRVS
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+</x-main>
