@@ -12,59 +12,137 @@ preheader: Transactional email template
 
           <table class="w-full">
             <tr>
-              <td class="py-6 px-9 sm:p-6 bg-white [border:1px_solid_theme(colors.slate.200)] rounded-lg">
+              <td
+                class="py-6 px-9 sm:p-6 bg-white [border:1px_solid_theme(colors.slate.200)] rounded-lg"
+              >
                 <table class="text-center">
-                    <tr>
-                        <td class="flex">
-                            <a href="https://maizzle.com" style="display: inline-block; vertical-align: middle; line-height: 70px;">
-                                <img src="NCCRVS.webp" src-production="images/NCCRVS.webp" width="100" alt="NCCRVS" style="vertical-align: middle;">
-                              </a>
-                              <p class="text-xl text-start mx-4 text-slate-900  font-league-spartan font-bold">4th National Convention on Civil Registration and Vital Statistics</p>
-                        </td>
-                    </tr>
-            </table>
+                  <tr>
+                    <td class="flex">
+                      <table style="width: 100%; text-align: center">
+                        <tr>
+                          <td
+                            style="
+                              vertical-align: middle;
+                              text-align: right;
+                              padding-right: 10px;
+                            "
+                          >
+                            <a
+                              href="https://convention.psa.gov.ph"
+                              style="display: inline-block"
+                            >
+                              <img
+                                src="NCCRVS.webp"
+                                src-production="images/NCCRVS.webp"
+                                width="100"
+                                alt="NCCRVS"
+                                style="vertical-align: middle"
+                              />
+                            </a>
+                          </td>
+                          <td
+                            style="vertical-align: middle; text-align: center"
+                          >
+                            <p
+                              class="text-xl text-slate-900 font-league-spartan font-bold"
+                              style="margin: 0"
+                            >
+                              4th National Convention on Civil Registration and
+                              Vital Statistics
+                            </p>
+                          </td>
+                          <td
+                            style="
+                              vertical-align: middle;
+                              text-align: left;
+                              padding-left: 10px;
+                            "
+                          >
+                            <a
+                              href="https://psa.gov.ph"
+                              style="display: inline-block"
+                            >
+                              <img
+                                src="PSA.png"
+                                src-production="images/PSA.png"
+                                width="97"
+                                height="55"
+                                alt="PSA"
+                                style="vertical-align: middle"
+                              />
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
 
-            <!-- <x-divider /> -->
+                <!-- <x-divider /> -->
 
                 <x-spacer height="24px" />
 
-                <h1 class="m-0 mb-6 text-3xl/8 text-red-600 font-semibold text-center font-Rubik">
+                <h1
+                  class="m-0 mb-6 text-3xl/8 text-red-600 font-semibold text-center font-Rubik"
+                >
                   INVALID PROOF OF PAYMENT
                 </h1>
 
                 <x-spacer height="24px" />
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600">
-                    Dear <span class="font-bold text-slate-800"><i>[Participant]</i></span>:
+                  Dear
+                  <span class="font-bold text-slate-800"><i>${ name }</i></span
+                  >:
                 </p>
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600">
-                    We hope this message finds you well.
+                  We hope this message finds you well.
                 </p>
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
-                    This email is with regard to the proof of payment you uploaded to the registration website of the 4th National Convention on Civil Registration and Vital Statistics on <span class="font-bold text-slate-900">28 to 30 July 2025</span> at the <span class="font-bold text-slate-900">SMX Convention Center Clark, SM City Clark Complex M.A. Roxas Highway, Clark, Bgry. Dau, Mabalacat City, Pampanga.</span>
+                  This email is with regard to the proof of payment you uploaded
+                  to the registration website of the 4th National Convention on
+                  Civil Registration and Vital Statistics on
+                  <span class="font-bold text-slate-900"
+                    >28 to 30 July 2025</span
+                  >
+                  at the
+                  <span class="font-bold text-slate-900"
+                    >SMX Convention Center Clark, SM City Clark Complex M.A.
+                    Roxas Highway, Clark, Bgry. Dau, Mabalacat City,
+                    Pampanga.</span
+                  >
                 </p>
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
-                  After careful evaluation, we would like to inform you that the submitted proof of payment was not processed due to <span class="font-bold text-red-600">[Remarks]</span>. Please resubmit and upload your updated proof of payment at the registration website.
+                  After careful evaluation, we would like to inform you that the
+                  submitted proof of payment was not processed due to
+                  <span class="font-bold text-red-600">[Remarks]</span>. Please
+                  resubmit and upload your updated proof of payment at the
+                  registration website.
                 </p>
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
-                  If you have any questions or require further assistance, please do not hesitate to reach out to our dedicated support team at <span class="font-bold text-slate-900">acctgnccrvs@gmail.com / (8)374-8264 / (8)374-8265</span>.
+                  If you have any questions or require further assistance,
+                  please do not hesitate to reach out to our dedicated support
+                  team at
+                  <span class="font-bold text-slate-900"
+                    >acctgnccrvs@gmail.com / (8)374-8264 / (8)374-8265</span
+                  >.
                 </p>
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
-                  Thank you for your prompt attention to this matter, and we appreciate your understanding as we work together to ensure a successful event experience.
-
+                  Thank you for your prompt attention to this matter, and we
+                  appreciate your understanding as we work together to ensure a
+                  successful event experience.
                 </p>
 
-                <x-spacer/>
+                <x-spacer />
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600">
-                    <i>4NCCRRVS ACCOUNTING</i>
+                  <i>4NCCRRVS ACCOUNTING</i>
                 </p>
-
               </td>
             </tr>
           </table>

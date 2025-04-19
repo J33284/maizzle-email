@@ -12,65 +12,142 @@ preheader: Transactional email template
 
           <table class="w-full">
             <tr>
-              <td class="py-6 px-9 sm:p-6 bg-white [border:1px_solid_theme(colors.slate.200)] rounded-lg">
+              <td
+                class="py-6 px-9 sm:p-6 bg-white [border:1px_solid_theme(colors.slate.200)] rounded-lg"
+              >
                 <table class="text-center">
-                    <tr>
-                        <td class="flex">
-                            <a href="https://maizzle.com" style="display: inline-block; vertical-align: middle; line-height: 70px;">
-                                <img src="NCCRVS.webp" src-production="images/NCCRVS.webp" width="100" alt="NCCRVS" style="vertical-align: middle;">
-                              </a>
-                              <p class="text-xl text-start mx-4 text-slate-900  font-league-spartan font-bold">4th National Convention on Civil Registration and Vital Statistics</p>
-                        </td>
-                    </tr>
-            </table>
+                  <tr>
+                    <td class="flex">
+                      <table style="width: 100%; text-align: center">
+                        <tr>
+                          <td
+                            style="
+                              vertical-align: middle;
+                              text-align: right;
+                              padding-right: 10px;
+                            "
+                          >
+                            <a
+                              href="https://convention.psa.gov.ph"
+                              style="display: inline-block"
+                            >
+                              <img
+                                src="NCCRVS.webp"
+                                src-production="images/NCCRVS.webp"
+                                width="100"
+                                alt="NCCRVS"
+                                style="vertical-align: middle"
+                              />
+                            </a>
+                          </td>
+                          <td
+                            style="vertical-align: middle; text-align: center"
+                          >
+                            <p
+                              class="text-xl text-slate-900 font-league-spartan font-bold"
+                              style="margin: 0"
+                            >
+                              4th National Convention on Civil Registration and
+                              Vital Statistics
+                            </p>
+                          </td>
+                          <td
+                            style="
+                              vertical-align: middle;
+                              text-align: left;
+                              padding-left: 10px;
+                            "
+                          >
+                            <a
+                              href="https://psa.gov.ph"
+                              style="display: inline-block"
+                            >
+                              <img
+                                src="PSA.png"
+                                src-production="images/PSA.png"
+                                width="97"
+                                height="55"
+                                alt="PSA"
+                                style="vertical-align: middle"
+                              />
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
 
-            <!-- <x-divider /> -->
+                <!-- <x-divider /> -->
 
                 <x-spacer height="24px" />
 
-                <h1 class="m-0 mb-6 text-3xl/8 text-emerald-500 font-semibold text-center font-Rubik">
+                <h1
+                  class="m-0 mb-6 text-3xl/8 text-emerald-500 font-semibold text-center font-Rubik"
+                >
                   REGISTRATION AND PAYMENT CONFIRMATION
                 </h1>
 
                 <x-spacer height="24px" />
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600">
-                    Dear <span class="font-bold text-slate-800"><i>[Participant]</i></span>:
+                  Dear
+                  <span class="font-bold text-slate-800"><i>${ name }</i></span
+                  >:
                 </p>
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
-                  We are pleased to confirm that you have successfully reserved your slot for the 4th National Convention on Civil Registration and Vital Statistics on <span class="font-bold text-slate-900">28 to 30 July 2025</span> at the <span class="font-bold text-slate-900">SMX Convention Center Clark, SM City Clark Complex M.A. Roxas Highway, Clark, Bgry. Dau, Mabalacat City, Pampanga.</span>
+                  We are pleased to confirm that you have successfully reserved
+                  your slot for the 4th National Convention on Civil
+                  Registration and Vital Statistics on
+                  <span class="font-bold text-slate-900"
+                    >28 to 30 July 2025</span
+                  >
+                  at the
+                  <span class="font-bold text-slate-900"
+                    >SMX Convention Center Clark, SM City Clark Complex M.A.
+                    Roxas Highway, Clark, Bgry. Dau, Mabalacat City,
+                    Pampanga.</span
+                  >
                 </p>
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
-                  Attached to this email is your <span class="font-bold text-slate-900">virtual ID</span> with <span class="font-bold text-slate-900">QR code</span>. You may also access your virtual ID through the registration website.
-
+                  Attached to this email is your
+                  <span class="font-bold text-slate-900">virtual ID</span> with
+                  <span class="font-bold text-slate-900">QR code</span>. You may
+                  also access your virtual ID through the registration website.
                 </p>
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
-                  Please note that there is no need to print the virtual ID as it will be printed and provided to you at the registration site on the first day of the event.
+                  Please note that there is no need to print the virtual ID as
+                  it will be printed and provided to you at the registration
+                  site on the first day of the event.
                 </p>
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
-                  Additionally, the certificates for this event will be issued electronically via the registration website after complete attendance to the 3-day event and upon submission of the Feedback Form which will be available on the website.
+                  Additionally, the certificates for this event will be issued
+                  electronically via the registration website after complete
+                  attendance to the 3-day event and upon submission of the
+                  Feedback Form which will be available on the website.
                 </p>
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
                   See you there!
                 </p>
 
-                <x-spacer/>
+                <x-spacer />
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600">
-                    <i>4NCCRRVS TECHNICAL TEAM</i>
+                  <i>4NCCRRVS TECHNICAL TEAM</i>
                 </p>
 
                 <x-divider />
 
                 <p class="m-0 text-xs/5 text-slate-600 mso-break-all">
-                    *** This email notification was sent because of your registration for the 4th National Convention on Civil Registration and Vital Statistics ***
+                  *** This email notification was sent because of your
+                  registration for the 4th National Convention on Civil
+                  Registration and Vital Statistics ***
                 </p>
-
               </td>
             </tr>
           </table>
