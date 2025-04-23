@@ -12,61 +12,119 @@ preheader: Transactional email template
 
           <table class="w-full">
             <tr>
-              <td class="py-6 px-9 sm:p-6 bg-white [border:1px_solid_theme(colors.slate.200)] rounded-lg">
+              <td
+                class="py-6 px-9 sm:p-6 bg-white [border:1px_solid_theme(colors.slate.200)] rounded-lg"
+              >
                 <table class="text-center">
-                    <tr>
-                        <td class="flex">
-                            <a href="https://maizzle.com" style="display: inline-block; vertical-align: middle; line-height: 70px;">
-                                <img src="NCCRVS.webp" src-production="images/NCCRVS.webp" width="100" alt="NCCRVS" style="vertical-align: middle;">
-                              </a>
-                              <p class="text-xl text-start mx-4 text-slate-900  font-league-spartan font-bold">4th National Convention on Civil Registration and Vital Statistics</p>
-                        </td>
-                    </tr>
-            </table>
+                  <tr>
+                    <td class="flex">
+                      <table style="width: 100%; text-align: center">
+                        <tr>
+                          <td
+                            style="
+                              vertical-align: middle;
+                              text-align: right;
+                              padding-right: 10px;
+                            "
+                          >
+                            <a
+                              href="https://convention.psa.gov.ph"
+                              style="display: inline-block"
+                            >
+                              <img
+                                src="NCCRVS.webp"
+                                src-production="images/NCCRVS.webp"
+                                width="100"
+                                alt="NCCRVS"
+                                style="vertical-align: middle"
+                              />
+                            </a>
+                          </td>
+                          <td
+                            style="vertical-align: middle; text-align: center"
+                          >
+                            <p
+                              class="text-xl text-slate-900 font-league-spartan font-bold"
+                              style="margin: 0"
+                            >
+                              4th National Convention on Civil Registration and
+                              Vital Statistics
+                            </p>
+                          </td>
+                          <td
+                            style="
+                              vertical-align: middle;
+                              text-align: left;
+                              padding-left: 10px;
+                            "
+                          >
+                            <a
+                              href="https://psa.gov.ph"
+                              style="display: inline-block"
+                            >
+                              <img
+                                src="PSA.png"
+                                src-production="images/PSA.png"
+                                width="97"
+                                height="55"
+                                alt="PSA"
+                                style="vertical-align: middle"
+                              />
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
 
-            <!-- <x-divider /> -->
+                <!-- <x-divider /> -->
 
                 <x-spacer height="24px" />
 
-                <h1 class="m-0 mb-6 text-3xl/8 text-blue-600 font-semibold text-center font-Rubik">
+                <h1
+                  class="m-0 mb-6 text-3xl/8 text-blue-600 font-semibold text-center font-Rubik"
+                >
                   ANSWERING FEEDBACK
                 </h1>
 
                 <x-spacer height="24px" />
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600">
-                    Dear <span class="font-bold text-slate-800"><i>[Participant]</i></span>:
+                  Dear
+                  <span class="font-bold text-slate-800"><i>${ name }</i></span
+                  >:
                 </p>
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
-                  We would greatly appreciate it if you could take a few moments to complete our evaluation form. Your insights and suggestions are invaluable in helping us improve the National Convention on Civil Registration and Vital Statistics.
-
+                  We would greatly appreciate it if you could take a few moments
+                  to complete our evaluation form. Your insights and suggestions
+                  are invaluable in helping us improve the National Convention
+                  on Civil Registration and Vital Statistics.
                 </p>
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
-                  Please click the link below to access the form: 
-                  <x-button
-                  class="bg-slate-950 hover:bg-slate-800"
-                >
-                  Click Here
-                </x-button>
-
+                  Please click the link below to access the form:
+                  <a href="https://convention.psa.gov.ph/page/evaluation"
+                    >Click Here!</a
+                  >
                 </p>
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
-                  The evaluation form only takes 3 minutes to complete, and your responses will remain confidential.
+                  The evaluation form only takes 3 minutes to complete, and your
+                  responses will remain confidential.
                 </p>
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600 text-justify">
-                  Thank you for your time and support. We look forward to hearing your thoughts!
+                  Thank you for your time and support. We look forward to
+                  hearing your thoughts!
                 </p>
 
-                <x-spacer/>
+                <x-spacer />
 
                 <p class="m-0 mb-6 text-base/6 text-slate-600">
-                    <i>4NCCRRVS TECHNICAL TEAM</i>
+                  <i>4NCCRRVS TECHNICAL TEAM</i>
                 </p>
-
               </td>
             </tr>
           </table>
